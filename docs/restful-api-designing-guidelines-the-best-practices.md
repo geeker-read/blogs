@@ -14,7 +14,6 @@ Facebook、Google、GitHub、Netflix 和其他一些科技巨头都为开发人�
 
 API 是开发人员与数据进行交互的接口。 一个精心设计的 API 应该是易于使用的。
 
-···
 
 ## 术语
 
@@ -24,7 +23,6 @@ API 是开发人员与数据进行交互的接口。 一个精心设计的 API �
 * `集合（Collections）`一组资源，例如 compan**ies** 是 company 的集合
 * `URL`用来定位资源和执行操作的路径
 
-···
 
 ## API 终端（endpoint）
 
@@ -70,7 +68,6 @@ URL 应该只包含资源（名词），而不应该有动作（action）或动�
 
 路径中的资源以`复数`形式存在，并通过 HTTP 方法对资源进行操作。
 
-···
 
 ## HTTP 方法
 
@@ -81,7 +78,6 @@ HTTP 定义了一些方法来指示对资源的操作。
 3. `PUT` 请求服务更新资源或创建一个不存在的资源。例如：`/companies/3/employees/john` 更新或创建 ID 为 3 的公司下 employees 集合里的 *john*。`PUT` 是幂等的。
 4. `DELETE` 请求从数据库中删除某个资源。例如： `/companies/3/employees/john/` 从 ID 为 3 的公司 employees 集合里的 *john*。
 
-···
 
 ## HTTP 响应状态码
 
@@ -89,7 +85,6 @@ HTTP 定义了一些方法来指示对资源的操作。
 
 HTTP 状态码是几组在不同状况下给出说明的标准化代码，服务器应该返回正确的状态码。
 
-···
 
 ### 2xx（成功）
 
@@ -99,12 +94,10 @@ HTTP 状态码是几组在不同状况下给出说明的标准化代码，服务
 * 201 Created — 当有新的资源被创建时应该返回该状态码。例如：通过 POST 创建新资源，要返回 201
 * 204 No Content — 表示请求已被成功处理但没有返回任何内容。例如：`DELETE /companies/43/employees/2` 删除 ID 为 2 的员工，删除成功后我们不需要返回任何数据。如果出现错误，如 `employee 2` 在数据库里不存在，返回码就不应该是 `2xx Success`，而是 `4xx Client Error`
 
-···
 
 ### 3xxx（重定向）
 * 304 Not Modified — 表示数据已被缓存。
 
-···
 
 ### 4xx（客户端错误）
 
@@ -116,14 +109,11 @@ HTTP 状态码是几组在不同状况下给出说明的标准化代码，服务
 * 404 Not Found — 表示资源不可用或找不到
 * 410 Gone — 表示资源已被永久删除，注意与 404 区别，资源以前存在但现在不存在会用 410 替代 404
 
-···
 
 ### 5xx（服务器错误）
 
 * 500 Internal Server Error — 表示请求有效，但是服务器端出现问题
 * 503 Service Unavailable — 表示服务器宕机不能接收和处理请求。一般用在服务器维护期间
-
-···
 
 ## 搜索、过滤、排序和分页
 
@@ -144,4 +134,4 @@ HTTP 状态码是几组在不同状况下给出说明的标准化代码，服务
 
 本期周刊同时同步到微信公众号(geeker-read)、[语雀](https://www.yuque.com/books/share/8cc684ae-4d87-483b-82e5-5128e32d4cef?#)和 [GitHub](https://github.com/geeker-read/weekly_issues)。
 
-<img src="./wx.png" width="450" />
+<img src="https://github.com/geeker-read/weekly_issues/raw/master/docs/wx.png" width="450" />
