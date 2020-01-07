@@ -1,4 +1,4 @@
-# 是的，它是 npx，不是 npm
+# [译] 是的，它是 npx，不是 npm
 
 ![](https://cdn.nlark.com/yuque/0/2020/png/639317/1578367849260-5db53733-af6e-4b9a-ab0a-059ebc546337.png)
 
