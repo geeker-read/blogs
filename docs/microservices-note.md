@@ -1,4 +1,4 @@
-这时一份份是我在极客时间学习《[微服务架构核心20讲](https://time.geekbang.org/course/intro/66)》时做的笔记。
+这是一份是我在极客时间学习《[微服务架构核心20讲](https://time.geekbang.org/course/intro/66)》时做的笔记。
 
 # 大纲
 > 1. 什么是微服务架构？
@@ -17,7 +17,7 @@
 > 14. 微服务通讯方式 RPC vs. REST
 > 15. 微服务架构需要考虑哪些治理环节
 > 16. 微服务监控系统分层和监控架构
-> 17. 微服务的调用链监控改如何选择
+> 17. 微服务的调用链监控该如何选择
 > 18. 微服务的容错限流是如何工作的
 > 19. Docker 容器部署技术 & 持续交付流水线
 > 20. 容器集群调度和基于容器的发布体系
@@ -351,7 +351,7 @@ Apollo 配置中心（左侧）是一个服务器，研发或运营人员可以�
 
 通过健康检查机制来定期对应用的健康进行自动化的检查，开源的工具有Nagios。
 
-## 微服务的调用链监控改如何选择
+## 微服务的调用链监控该如何选择
 
 ![](https://imgkr.cn-bj.ufileos.com/4b361c7c-eb3e-4d4b-8331-8cdfd743ef86.png)
 
@@ -429,3 +429,10 @@ Span是调用链形成的关键，在Span会有一些信息：Trace Id、Span Id
 ![](https://imgkr.cn-bj.ufileos.com/300084d5-fdcc-4bec-a87f-87adc243692d.png)
 
 ![](https://imgkr.cn-bj.ufileos.com/bc328d32-e828-4c33-ade1-a396980f6d63.png)
+
+---
+
+
+极客阅读：[geeker-read.com](https://geeker-read.com)
+
+<img src="https://github.com/geeker-read/weekly_issues/raw/master/docs/wx.png" width="450" />
