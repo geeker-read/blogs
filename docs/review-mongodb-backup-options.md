@@ -1,5 +1,7 @@
 # [译] MongoDB 几种备份方案
 
+![](https://cdn.nlark.com/yuque/0/2020/jpeg/639317/1578533002833-91cc0ab1-db73-42e0-9fa2-f0ac1f0c39dd.jpeg)
+
 > 原文：[A Review of MongoDB Backup Options](https://severalnines.com/database-blog/review-mongodb-backup-options)
 
 数据库备份是数据保护与恢复的一种方法。是存储数据库运行状态（Operational state）、结构和数据的一个过程。对防止技术故障或灾难造成数据损失，起到非常重要的作用。因此数据的备份不容忽视。
