@@ -2,7 +2,7 @@
 
 > 原文：[A Review of MongoDB Backup Options](https://severalnines.com/database-blog/review-mongodb-backup-options)
 
-数据库备份是数据保护与恢复的一种方法。它是存储你数据库运行状态（Operational state）、结构和数据的一个过程。在发生技术故障或灾难时起到非常重要的作用。因此数据的备份不容忽视。
+数据库备份是数据保护与恢复的一种方法。是存储数据库运行状态（Operational state）、结构和数据的一个过程。对防止技术故障或灾难造成数据损失，起到非常重要的作用。因此数据的备份不容忽视。
 
 MongoDB 提供了多种工具和技术来备份数据库。
 
@@ -18,7 +18,7 @@ MongoDB 提供了多种工具和技术来备份数据库。
 
 ## MongoDump 和 MongoRestore
 
-如果你的数据库比较小（<100GB），并向完全控制你的备份文件。那么 MongoDump 和 MongoRestore 就是最佳搭档。通过这两个 mongo 脚本命令你可以手动备份数据库或集合（collections）。Mongodump 将所有数据以 Binary JSON（BSON）格式转储到指定位置。 Mongorestore 可以将这个 BSON 文件来还原到您的数据库。
+如果你的数据库比较小（<100GB），并想完全控制你的备份文件。那么 MongoDump 和 MongoRestore 就是最佳搭档。通过这两个 mongo 脚本命令你可以手动备份数据库或集合（collections）。Mongodump 会将将所有数据以 Binary JSON（BSON）格式转储到指定位置。 Mongorestore 可以将这些 BSON 文件来还原到你的数据库。
 
 ### 备份整个数据库
 
@@ -43,7 +43,7 @@ MongoDB 提供了多种工具和技术来备份数据库。
 
 ### 定期备份
 
-一般的做法，我们要定期对 MongoDB 数据库做备份。例如每天凌晨 3:03 点进行备份，这样在 Linux 下可以通过 crontab 来实现。
+通常我们要定期对 MongoDB 数据库做备份。例如每天凌晨 3:03 点进行备份，这样在 Linux 下可以通过 crontab 来实现。
 
 `$ sudo crontab -e`
 
@@ -132,7 +132,7 @@ Ops Manager 运行在你数据中心，对 MongoDB 进行管理的应用程序�
 ### 优点
 
 * 易用
-* 快照完全可控，可移植
+* 快照完全可控
 * 差异性快照
 * 无需下载快照来进行恢复，可以为快照创建一个数据卷。
 
@@ -168,6 +168,7 @@ MongoDB 集群一致性备份的工具。可以备份集群的一个或多个分
 * 官方代码缺乏测试
 
 ## ClusterControl
+
 ClusterControl 是一个一体化、自动化的数据库管理系统。 可以轻松地监控、部署、管理和扩展数据库集群。 支持 MySQL、MongoDB、PostgreSQL、Percona XtraDB 和 Galera Cluster。 
 
 可自动执行几乎所有数据库操作，例如部署群集、从任何群集中添加或删除节点、连续备份、扩展群集等。
@@ -188,10 +189,16 @@ ClusterControl 是一个一体化、自动化的数据库管理系统。 可以�
 
 ## 结论
 
-良好的备份策略是任何数据库管理系统的关键部分。 MongoDB 提供了许多备份和恢复/还原选项。 
+好的备份策略是任何数据库管理系统的关键部分。 MongoDB 提供了许多备份和恢复/还原选项。 
 
-除了良好的备份方法外，拥有多个数据库副本也非常重要，这有助于还原数据库，而无需停机。
+除了好的备份方法外，拥有多个数据库副本也非常重要，这有助于在无需停机下还原数据库。
 
-有时对于较大的数据库，备份过程可能会占用大量资源。 因此，您的服务器应配备良好的 CPU，RAM 和更多磁盘空间来处理此类负载。
+有时对于较大的数据库，备份过程可能会占用大量资源。 因此，您的服务器应配备好一些的 CPU，内存和更多磁盘空间来处理此类负载。
 
-由于这些原因，备份过程可能会增加服务器的负载，因此您应该在晚上或非高峰时间运行备份过程。
+由于某些原因，备份过程可能会增加服务器的负载，因此应该在晚上或非高峰时间运行备份过程。
+
+---
+
+极客阅读：[geeker-read.com](https://geeker-read.com)
+
+<img src="https://github.com/geeker-read/weekly_issues/raw/master/docs/wx.png" width="450" />
