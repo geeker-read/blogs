@@ -11,4 +11,4 @@
 
 极客阅读：[geeker-read.com](https://geeker-read.com)
 
-<img src="https://github.com/geeker-read/weekly_issues/raw/master/docs/wx.png" width="350" />
+<img src="https://geeker-cdn.devhub.top/assets/geeker-read-wx-qr-code-v2.png" width="350" />
