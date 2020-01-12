@@ -81,6 +81,7 @@
 想要匹配 `^.[$()|*+?{\` 等这些字符，要是用 `\` 进行转义。
 
 > * **\$\d** — 匹配**一个 $ 和一个数字** -> [试一试！](https://regex101.com/r/cO8lqs/9)
+>
 > ![](https://imgkr.cn-bj.ufileos.com/8e6bf1e9-c6e4-43d8-a369-e50402bfa341.png)
 
 
@@ -181,7 +182,7 @@
 
 或使用反义操作
 
-> * d**(?!r)** — 匹配 **r** 后面跟着的 **d**，不包括 **r** -> [试一试！](https://regex101.com/r/cO8lqs/20)
+> * d **(?!r)** — 匹配 **r** 后面跟着的 **d**，不包括 **r** -> [试一试！](https://regex101.com/r/cO8lqs/20)
 > ![](https://imgkr.cn-bj.ufileos.com/5a23dd34-bbcb-47ab-978b-f5b283896c10.png)
 >
 > * **(?<!r)**d — 匹配 **r** 前面的 **d**，不包括 **r** -> [试一试！](https://regex101.com/r/cO8lqs/21)
