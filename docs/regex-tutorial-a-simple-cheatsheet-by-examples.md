@@ -57,12 +57,14 @@
 > ![](https://imgkr.cn-bj.ufileos.com/06696eaf-cd41-4c34-ab2b-037d89e76dcf.png)
 > 
 > * **\w** — 匹配**文字字符**（word character）(注：这里指的英文：数字、字母和下划线。等同于 `[a-zA-Z0-9_]`) -> [试一试！](https://regex101.com/r/cO8lqs/16779)
+>
 > ![](https://imgkr.cn-bj.ufileos.com/f82fcc5a-99f1-4f39-863f-58a67296bf24.png)
 >
 > * **\s** — 匹配**空格符**（包括制表符（tab） 和换行，等同于 ` [\r\n\t\f\v ]`） -> [试一试！](https://regex101.com/r/cO8lqs/16780)
 > ![](https://imgkr.cn-bj.ufileos.com/66191a9f-04d3-4a84-8f94-db6b5ead00e3.png)
 >
 > * **.** — 匹配**任意字符** -> [试一试！](https://regex101.com/r/cO8lqs/5)
+>
 > ![](https://imgkr.cn-bj.ufileos.com/0b4af4a6-5cfd-4f5d-aae8-aed3b73e6188.png)
 
 
@@ -147,6 +149,7 @@
 ### 边界：`\b` 和 `\B`（也就是单词边界）
 
 > * **\babc\b** — 词 abc -> [试一试！](https://regex101.com/r/cO8lqs/25)
+>
 > ![](https://imgkr.cn-bj.ufileos.com/d0aee31e-9549-4b24-aa1f-1db7d97ecdcd.png)
 
 `\b` 是和 `$` 与 `^` 类似的一个标记点。它的一侧是单词（`\w`），而另一侧不是单词（字符串的起始位置或空格）。
