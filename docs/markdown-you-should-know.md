@@ -16,6 +16,8 @@ Markdown 是由 [John Gruber](https://daringfireball.net/projects/markdown/) 在
 
 ## 视频
 
+放不了视频 😓，关注公众号（`geeker-read`），在公众号看吧。
+
 ## Markdown 常用标记
 
 ### 1. 使用 `#` 定义标题（`注意 # 与文字之间要有空格`）：
@@ -235,3 +237,9 @@ Vue.component(Select.name, Select)
 - [StackEdit](https://stackedit.io/app)
 - [印象笔记](https://www.yinxiang.com)
 - [马克飞象](https://maxiang.io/)
+
+---
+
+极客阅读：[geeker-read.com](https://geeker-read.com)
+
+<img src="https://geeker-cdn.devhub.top/assets/geeker-read-wx-qr-code-v2.png" width="350" />
