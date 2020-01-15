@@ -124,8 +124,6 @@ Duang！
 
 ---
 
----
-
 极客阅读：[geeker-read.com](https://geeker-read.com)
 
 <img src="https://github.com/geeker-read/weekly_issues/raw/master/docs/wx.png" width="450" />
