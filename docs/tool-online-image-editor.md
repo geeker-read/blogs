@@ -1,6 +1,6 @@
 # 工具 | 一款可以媲美 Photoshop 的在线图片处理工具，有人把它的作者称为「神」
 
-<img src="https://cdn.nlark.com/yuque/0/2020/png/639317/1579079219778-040f6599-22ee-47f1-8229-4c45d9e0288b.png" width="450" />
+<img src="https://cdn.nlark.com/yuque/0/2020/png/639317/1579079219778-040f6599-22ee-47f1-8229-4c45d9e0288b.png" />
 
 用过 Photoshop 的小伙伴都知道，Photoshop 在处理图片方面几乎无人撼动、一家独大。
 
