@@ -90,3 +90,10 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 > 注意：`%c` 和第二个参数对样式的设置。
 
 以上就是视频中提到的 console 技巧。**注意 console 主要用于代码的调试，生产环境上建议将 console 相关代码删除**。
+
+
+---
+
+极客阅读：[geeker-read.com](https://geeker-read.com)
+
+<img src="https://github.com/geeker-read/weekly_issues/raw/master/docs/wx.png" width="450" />
