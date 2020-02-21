@@ -13,6 +13,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 
 ![](https://imgkr.cn-bj.ufileos.com/a2b8bc44-7d0b-4b3d-a6e0-ca99aeb3eec0.png)
 
+<br /><br />
+
 # 错误（false）断言
 
 通过 `console.assert()` 可以将条件为 **false** 时的 log 打印出来，例如：`console.assert(false, 'user not logged in 😷');`
@@ -23,6 +25,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 
 ![](https://imgkr.cn-bj.ufileos.com/22846c40-89dc-4fd3-b63a-3206ab1acdf8.png)
 
+<br /><br />
+
 # 将数据以表格的形式显示
 
 该方法可以将数据已表格的方式更加直观的展示出来。
@@ -32,6 +36,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 ![](https://imgkr.cn-bj.ufileos.com/67215191-963f-4098-8ea2-58061e86d77a.png)
 
 ![](https://imgkr.cn-bj.ufileos.com/ce851457-13f8-4dea-a0f8-dcbd6732b29c.png)
+
+<br /><br />
 
 # 分组（group）输出
 
@@ -45,6 +51,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 
 ![](https://imgkr.cn-bj.ufileos.com/9fddace0-94e5-44f8-ae99-2bf520bfed05.png)
 
+<br /><br />
+
 # 显示指定 JavaScript 对象的属性
 
 在控制台中显示指定 JavaScript 对象的属性，并通过类似文件树样式的交互列表显示。
@@ -55,6 +63,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 
 > Chrome 中通过 console.log 也能显示类似的结果。
 
+<br /><br />
+
 # 计数统计
 
 对于有需要做计数统计的工作可以使用 `console.count()` 完成，此函数接受一个可选参数 label。
@@ -62,6 +72,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 ![](https://imgkr.cn-bj.ufileos.com/ceae265b-ee18-4358-8b41-a2f8d001fd55.png)
 
 ![](https://imgkr.cn-bj.ufileos.com/5ee8cba0-5cb7-466d-83b6-da6edecb760c.png)
+
+<br /><br />
 
 # 性能调试 - 计时器
 
@@ -71,6 +83,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 
 ![](https://imgkr.cn-bj.ufileos.com/b572b8a7-b579-4454-9e20-f64bf0875dc2.png)
 
+<br /><br />
+
 # 堆栈跟踪
 
 通过 `console.trace()` 展示运行到该 console.trace() 所经过的调用路径。
@@ -78,6 +92,8 @@ console 是浏览器内置的调试器，作为前端开发对它应该并不陌
 ![](https://imgkr.cn-bj.ufileos.com/39994a82-665a-489b-9266-226ba40fae7c.png)
 
 > 提示：从下至上查看调用路径
+
+<br /><br />
 
 # 不单调的 console.log 🌈
 
