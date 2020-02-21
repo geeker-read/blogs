@@ -1,5 +1,7 @@
 # 极客阅读 - 博客
 
+* [视频 + 文字 | JavaScript 除了 console.log，这些 console 也应该了解下
+](./docs/beyond-console-log.md)
 * [工具 | 一款可以媲美 Photoshop 的在线图片处理工具，有人把它的作者称为「神」](./docs/tool-online-image-editor.md)
 * [文章 | Markdown 一种现代化的文章编写方式](./docs/markdown-you-should-know.md)
 * [2020 微信公开课张小龙的 7 个思考](./docs/wx-2020.md)
